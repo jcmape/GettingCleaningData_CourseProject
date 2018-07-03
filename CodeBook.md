@@ -24,91 +24,92 @@ For each record in the dataset it is provided:
 2. activity - the type of activity performed when the measurements are taken
 
 ## Activity Labels
-  WALKING: subject was walking
-  WALKING_UPSTAIRS: subject was walking upstairs
-  WALKING_DOWNSTAIRS: subject was walking downstairs
-  SITTING: subject was sitting
-  STANDING: subject was standing
-  LAYING: subject was laying
+  1. WALKING: subject was walking
+  2. WALKING_UPSTAIRS: subject was walking upstairs
+  3. WALKING_DOWNSTAIRS: subject was walking downstairs
+  4. SITTING: subject was sitting
+  5. STANDING: subject was standing
+  6. LAYING: subject was laying
 
 ## Measurements
 The tidy_data.txt contains the averages of the following measurements:
-    tBodyAccmeanX                
-    tBodyAccmeanY                
-    tBodyAccmeanZ               
-    tBodyAccstdX                 
-    tBodyAccstdY                 
-    tBodyAccstdZ                
-    tGravityAccmeanX             
-    tGravityAccmeanY             
-    tGravityAccmeanZ            
-    tGravityAccstdX              
-    tGravityAccstdY              
-    tGravityAccstdZ             
-    tBodyAccJerkmeanX            
-    tBodyAccJerkmeanY            
-    tBodyAccJerkmeanZ           
-    tBodyAccJerkstdX             
-    tBodyAccJerkstdY             
-    tBodyAccJerkstdZ            
-    tBodyGyromeanX               
-    tBodyGyromeanY               
-    tBodyGyromeanZ              
-    tBodyGyrostdX                
-    tBodyGyrostdY               
-    tBodyGyrostdZ               
-    tBodyGyroJerkmeanX           
-    tBodyGyroJerkmeanY           
-    tBodyGyroJerkmeanZ          
-    tBodyGyroJerkstdX            
-    tBodyGyroJerkstdY            
-    tBodyGyroJerkstdZ           
-    tBodyAccMagmean              
-    tBodyAccMagstd               
-    tGravityAccMagmean          
-    tGravityAccMagstd            
-    tBodyAccJerkMagmean          
-    tBodyAccJerkMagstd          
-    tBodyGyroMagmean             
-    tBodyGyroMagstd              
-    tBodyGyroJerkMagmean        
-    tBodyGyroJerkMagstd          
-    fBodyAccmeanX                
-    fBodyAccmeanY               
-    fBodyAccmeanZ                
-    fBodyAccstdX                 
-    fBodyAccstdY                
-    fBodyAccstdZ                 
-    fBodyAccmeanFreqX            
-    fBodyAccmeanFreqY           
-    fBodyAccmeanFreqZ            
-    fBodyAccJerkmeanX            
-    fBodyAccJerkmeanY           
-    fBodyAccJerkmeanZ            
-    fBodyAccJerkstdX             
-    fBodyAccJerkstdY            
-    fBodyAccJerkstdZ             
-    fBodyAccJerkmeanFreqX        
-    fBodyAccJerkmeanFreqY       
-    fBodyAccJerkmeanFreqZ        
-    fBodyGyromeanX               
-    fBodyGyromeanY              
-    fBodyGyromeanZ               
-    fBodyGyrostdX                
-    fBodyGyrostdY               
-    fBodyGyrostdZ                
-    fBodyGyromeanFreqX           
-    fBodyGyromeanFreqY          
-    fBodyGyromeanFreqZ          
-    fBodyAccMagmean             
-    fBodyAccMagstd              
-    fBodyAccMagmeanFreq          
-    fBodyBodyAccJerkMagmean      
-    fBodyBodyAccJerkMagstd      
-    fBodyBodyAccJerkMagmeanFreq 
-    fBodyBodyGyroMagmean        
-    fBodyBodyGyroMagstd         
-    fBodyBodyGyroMagmeanFreq     
-    fBodyBodyGyroJerkMagmean     
-    fBodyBodyGyroJerkMagstd     
-    fBodyBodyGyroJerkMagmeanFreq
+
+tBodyAccmeanX                
+tBodyAccmeanY                
+tBodyAccmeanZ               
+tBodyAccstdX                 
+tBodyAccstdY                 
+tBodyAccstdZ                
+tGravityAccmeanX             
+tGravityAccmeanY             
+tGravityAccmeanZ            
+tGravityAccstdX              
+tGravityAccstdY              
+tGravityAccstdZ             
+tBodyAccJerkmeanX            
+tBodyAccJerkmeanY            
+tBodyAccJerkmeanZ           
+tBodyAccJerkstdX             
+tBodyAccJerkstdY             
+tBodyAccJerkstdZ            
+tBodyGyromeanX               
+tBodyGyromeanY               
+tBodyGyromeanZ              
+tBodyGyrostdX                
+tBodyGyrostdY               
+tBodyGyrostdZ               
+tBodyGyroJerkmeanX           
+tBodyGyroJerkmeanY           
+tBodyGyroJerkmeanZ          
+tBodyGyroJerkstdX            
+tBodyGyroJerkstdY            
+tBodyGyroJerkstdZ           
+tBodyAccMagmean              
+tBodyAccMagstd               
+tGravityAccMagmean          
+tGravityAccMagstd            
+tBodyAccJerkMagmean          
+tBodyAccJerkMagstd          
+tBodyGyroMagmean             
+tBodyGyroMagstd              
+tBodyGyroJerkMagmean        
+tBodyGyroJerkMagstd          
+fBodyAccmeanX                
+fBodyAccmeanY               
+fBodyAccmeanZ                
+fBodyAccstdX                 
+fBodyAccstdY                
+fBodyAccstdZ                 
+fBodyAccmeanFreqX            
+fBodyAccmeanFreqY           
+fBodyAccmeanFreqZ            
+fBodyAccJerkmeanX            
+fBodyAccJerkmeanY           
+fBodyAccJerkmeanZ            
+fBodyAccJerkstdX             
+fBodyAccJerkstdY            
+fBodyAccJerkstdZ             
+fBodyAccJerkmeanFreqX        
+fBodyAccJerkmeanFreqY       
+fBodyAccJerkmeanFreqZ        
+fBodyGyromeanX               
+fBodyGyromeanY              
+fBodyGyromeanZ               
+fBodyGyrostdX                
+fBodyGyrostdY               
+fBodyGyrostdZ                
+fBodyGyromeanFreqX           
+fBodyGyromeanFreqY          
+fBodyGyromeanFreqZ          
+fBodyAccMagmean             
+fBodyAccMagstd              
+fBodyAccMagmeanFreq          
+fBodyBodyAccJerkMagmean      
+fBodyBodyAccJerkMagstd      
+fBodyBodyAccJerkMagmeanFreq 
+fBodyBodyGyroMagmean        
+fBodyBodyGyroMagstd         
+fBodyBodyGyroMagmeanFreq     
+fBodyBodyGyroJerkMagmean     
+fBodyBodyGyroJerkMagstd     
+fBodyBodyGyroJerkMagmeanFreq
