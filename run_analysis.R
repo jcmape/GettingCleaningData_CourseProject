@@ -50,4 +50,4 @@
 #creates a tidy data set with the average of each measurement.
   tidy_data <-aggregate(combineddata[, 3:ncol(combineddata)], by=list(combineddata$subject,combineddata$activity), FUN=mean, na.rm=TRUE)
   colnames(tidy_data) [1:2]<- c("subject", "activity") 
-  write.table(tidy_data, file="tidy_data.txt", row.names = FALSE)
+  write.table(tidy_data, file="tidy_data.txt", row.names = FALSE, qoute=FALSE)
